@@ -23,13 +23,13 @@ cd senior-test
 
 ### Instale as dependências
 
-Para instalar as dependências execute os seguintes códigos:
+Para instalar as dependências execute o seguinte comando:
 
 ```
 npm install
 ```
 
-Será executado automaticamente os seguintes códigos:
+Será executado automaticamente os seguintes comandos:
 
 ```
 bower install
@@ -40,12 +40,20 @@ serve -p 8080 ./app
 * `node_modules` - contém as dependências do node.js
 * `app/bower_components` - contém as dependências da aplicação
 
-### Run the Application
+### Rodando a aplicação
 
-Para iniciar um server local utilize os seguintes códigos:
+Para iniciar um server local utilize o seguinte comando:
 
 ```
 npm start
+```
+
+### Rodando a aplicação como desenvolvedor
+
+Para compilar o less automaticamente utilize o seguinte comando:
+
+```
+gulp dev
 ```
 
 Agora abra a seguinte URL no seu navegador: `http://localhost:8080/`.

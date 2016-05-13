@@ -10,8 +10,10 @@
 		});
 
 		self.addFavorites = function(){
-			storageService.save("state", self.selectedState.initials);
-			storageService.save("city", self.selectedCity);
+			if(self.selectedState && self.selectedState.initials && self.selectedCity){
+				storageService.save("state", self.selectedState.initials);
+				storageService.save("city", self.selectedCity);
+			}
 			alert("Adicionado com sucesso!");
 		};
 

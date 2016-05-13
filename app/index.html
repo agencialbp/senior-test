@@ -47,8 +47,6 @@
 				<select ng-change="ctrl.getWeather(ctrl.selectedCity, ctrl.selectedState.initials)" ng-model="ctrl.selectedCity">
 					<option ng-repeat="option in ctrl.selectedState.cities" value="{{option}}">{{option}}</option>
 				</select>
-
-				{{ctrl.beachAlert}}
 			</div>
 		</div>
 		<div class="col-xs-12 col-sm-9">
@@ -69,6 +67,7 @@
 					<span class="glyphicon glyphicon-sunglasses"></span>&nbsp; Nascer do sol: {{ctrl.weather.agora.nascer_do_sol}} / Por do sol: {{ctrl.weather.agora.por_do_sol}}<br />
 				</div>
 				<div class="clear"></div>
+				<b>{{ctrl.beachAlert}}</b>
 			</div>
 			
 			<div google-chart chart="ctrl.chartConfig" class="chart"></div>
