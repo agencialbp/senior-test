@@ -1,0 +1,45 @@
+.clear{clear: both;}
+
+.sideMenu, .today, .nextDays div{padding: 20px; background: #eee; border-radius: 6px; margin-bottom: 30px;}
+
+.sideMenu{
+	select{width: 200px; max-width: 100%; height: 25px; margin-bottom: 10px;}
+	.beachAlert{margin-top: 10px;}
+	.beachAlert{
+		.good{color: #0000ff;}
+		.bad{color: #ff0000;}
+	}
+}
+
+.today{
+	.favorites{cursor: pointer; float: right; display: block; font-size: 10px; line-height: 22px; color: inherit; text-decoration: none;}
+	.favorites:hover{color: #ff0000;}
+	.favorites{
+		span{font-size: 22px;}
+	}
+}
+
+.today{
+	h1{margin: 0px 0px 20px;}
+	.col{width: 50%; display: inline-block; float: left; padding-right: 20px;}
+	@media (max-width: 1000px) {
+		.col{width: auto; display: block; float: none; padding-right: 0px;}
+	}
+}
+
+@media (max-width: 500px) {
+	.nextDays{float: none; width: 100%;}
+}
+.nextDays{
+	div{text-align: center;}
+	div{
+		h1{font-size: 28px; margin: 0px 0px 20px;}
+		h1{
+			span{font-size: 14px; display: block;}
+		}
+		.min{color: #0000ff;}
+		.max{color: #ff0000;}
+	}
+}
+
+.chart{margin-bottom: 30px;}

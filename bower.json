@@ -1,0 +1,25 @@
+{
+  "name": "senior",
+  "description": "Senior Test.",
+  "main": "app/",
+  "moduleType": [],
+  "authors": [
+    "Leonardo Polo"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-google-chart": "0.1.0",
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.3"
+  }
+}
